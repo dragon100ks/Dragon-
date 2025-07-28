@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ArabicMods - مودات ماين كرافت</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- الهيدر -->
+  <header class="bg-green-600 text-white p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">ArabicMods</h1>
+    <nav class="space-x-4">
+      <a href="#mods" class="hover:underline">مودات</a>
+      <a href="#paid" class="hover:underline">مودات مدفوعة</a>
+      <a href="#shaders" class="hover:underline">شادرات</a>
+      <a href="#upload" class="hover:underline">ارفع مود</a>
+      <a href="#login" class="hover:underline">دخول</a>
+    </nav>
+  </header>
+
+  <!-- قسم الترحيب -->
+  <section class="text-center py-10 bg-white">
+    <h2 class="text-3xl font-bold mb-2">مرحبًا بك في ArabicMods</h2>
+    <p class="text-gray-700">أكبر مكتبة مودات عربية لماين كرافت بيدروك وجافا</p>
+  </section>
+
+  <!-- قسم مودات عادية -->
+  <section id="mods" class="p-6">
+    <h3 class="text-xl font-bold mb-4">مودات</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://i.imgur.com/7tO8rWi.jpg" alt="مود الطيران السريع" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">مود الطيران السريع</h4>
+        <p class="text-gray-600 text-sm">يضيف إمكانية الطيران بسرعات عالية جداً داخل اللعبة.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>1320</strong></p>
+        <button class="mt-2 bg-green-500 text-white px-4 py-1 rounded">تحميل</button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://i.imgur.com/1hJjrJr.jpg" alt="مود الدروع المحسنة" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">مود الدروع المحسنة</h4>
+        <p class="text-gray-600 text-sm">يضيف دروع جديدة مع مقاومة أعلى وتفاصيل رائعة.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>870</strong></p>
+        <button class="mt-2 bg-green-500 text-white px-4 py-1 rounded">تحميل</button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://i.imgur.com/5KbW8Kn.jpg" alt="مود الأسلحة النارية" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">مود الأسلحة النارية</h4>
+        <p class="text-gray-600 text-sm">يضيف أسلحة نارية متعددة مثل البنادق والمسدسات.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>1010</strong></p>
+        <button class="mt-2 bg-green-500 text-white px-4 py-1 rounded">تحميل</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- قسم مودات مدفوعة (لكن نعرض مودات تم تسريبها) -->
+  <section id="paid" class="p-6 bg-yellow-50">
+    <h3 class="text-xl font-bold mb-4">مودات مدفوعة (تم تسريبها)</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+      <div class="bg-white p-4 rounded shadow border-yellow-400 border-2">
+        <img src="https://i.imgur.com/qfG9Auv.jpg" alt="مود السيف العملاق" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">مود السيف العملاق</h4>
+        <p class="text-gray-600 text-sm">سيف ضخم يقتل الأعداء بضربة واحدة تقريباً.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>540</strong></p>
+        <button class="mt-2 bg-yellow-500 text-white px-4 py-1 rounded">تحميل مجاني</button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow border-yellow-400 border-2">
+        <img src="https://i.imgur.com/9Sv7Sw6.jpg" alt="مود الدروع الذهبية الفريدة" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">مود الدروع الذهبية الفريدة</h4>
+        <p class="text-gray-600 text-sm">دروع ذهبية نادرة مع قدرات دفاعية عالية جداً.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>630</strong></p>
+        <button class="mt-2 bg-yellow-500 text-white px-4 py-1 rounded">تحميل مجاني</button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow border-yellow-400 border-2">
+        <img src="https://i.imgur.com/UEBdwMu.jpg" alt="مود الطائرات الحربية" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">مود الطائرات الحربية</h4>
+        <p class="text-gray-600 text-sm">يطير بك طائرات حربية ويوفر معارك جوية مثيرة.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>720</strong></p>
+        <button class="mt-2 bg-yellow-500 text-white px-4 py-1 rounded">تحميل مجاني</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- قسم شادرات -->
+  <section id="shaders" class="p-6">
+    <h3 class="text-xl font-bold mb-4">شادرات</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://i.imgur.com/LCJK1iH.jpg" alt="شادر الإضاءة الواقعية" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">شادر الإضاءة الواقعية</h4>
+        <p class="text-gray-600 text-sm">يجعل الإضاءة والماء أكثر واقعية.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>2570</strong></p>
+        <button class="mt-2 bg-green-500 text-white px-4 py-1 rounded">تحميل</button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://i.imgur.com/EvWzRYC.jpg" alt="شادر الظلال الناعمة" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">شادر الظلال الناعمة</h4>
+        <p class="text-gray-600 text-sm">يضيف ظلال ناعمة وطبيعية للأجسام.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>1850</strong></p>
+        <button class="mt-2 bg-green-500 text-white px-4 py-1 rounded">تحميل</button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://i.imgur.com/sBVLbQq.jpg" alt="شادر الألوان الحيوية" class="w-full mb-2 rounded" />
+        <h4 class="text-lg font-bold">شادر الألوان الحيوية</h4>
+        <p class="text-gray-600 text-sm">يزيد من حيوية الألوان في اللعبة بشكل كبير.</p>
+        <p class="text-sm text-gray-500">عدد التحميلات: <strong>1500</strong></p>
+        <button class="mt-2 bg-green-500 text-white px-4 py-1 rounded">تحميل</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- نموذج رفع مود -->
+  <section id="upload" class="p-6 bg-white mt-6 rounded shadow max-w-3xl mx-auto">
+    <h3 class="text-xl font-bold mb-4">ارفع مودك</h3>
+    <form class="space-y-4" onsubmit="alert('تم رفع المود (تجريبي)'); return false;">
+      <input type="text" placeholder="اسم المود" class="w-full p-2 border rounded" required />
+      <textarea placeholder="وصف المود" class="w-full p-2 border rounded" required></textarea>
+      <select class="w-full p-2 border rounded" required>
+        <option value="" disabled selected>اختر القسم</option>
+        <option value="mods">مودات</option>
+        <option value="paid">مدفوعة</option>
+        <option value="shaders">شادرات</option>
+      </select>
+      <input type="text" placeholder="إصدار ماين كرافت" class="w-full p-2 border rounded" />
+      <input type="url" placeholder="رابط التحميل (Mediafire, Google Drive...)" class="w-full p-2 border rounded" required />
+      <input type="file" class="w-full" />
+      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">إرسال المود</button>
+    </form>
+  </section>
+
+  <!-- تسجيل دخول -->
+  <section id="login" class="p-6 max-w-md mx-auto">
+    <h3 class="text-xl font-bold mb-4">تسجيل الدخول / إنشاء حساب</h3>
+    <form class="space-y-3" onsubmit="alert('تسجيل دخول تجريبي'); return false;">
+      <input type="email" placeholder="البريد الإلكتروني" class="w-full p-2 border rounded" required />
+      <input type="password" placeholder="كلمة المرور" class="w-full p-2 border rounded" required />
+      <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">دخول</button>
+      <p class="text-sm text-gray-600">أو <a href="#" class="text-green-600 underline">سجل حساب جديد</a></p>
+    </form>
+  </section>
+
+  <!-- الفوتر -->
+  <footer class="text-center p-4 bg-gray-200 mt-10">
+    <p>© 2025 ArabicMods - جميع الحقوق محفوظة</p>
+  </footer>
+  
+</body>
+</html>
